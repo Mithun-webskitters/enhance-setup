@@ -6,20 +6,29 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "json-server": "json-server --watch db.json --port 4000"
   },
   "dependencies": {
+    "@apollo/client": "^4.0.4",
+    "apollo-server-micro": "^3.13.0",
+    "graphql": "^16.11.0",
+    "graphql-tag": "^2.12.6",
+    "lightweight-charts": "^4.2.3",
+    "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "rxjs": "^7.8.2",
+    "zustand": "^5.0.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
-    "@eslint/eslintrc": "^3"
+    "json-server": "^1.0.0-beta.3",
+    "typescript": "^5"
   }
 }
