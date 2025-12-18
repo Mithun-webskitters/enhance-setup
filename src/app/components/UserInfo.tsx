@@ -51,14 +51,6 @@ function UserInfo() {
           name="email"
           placeholder="email"
         />
-        {/* <input
-          type="email"
-          name="email"
-          // ✅ Only use userInfo
-          value={userInfo.email}
-          onChange={handleChange}
-          placeholder="Email"
-        /> */}
         <button type="submit">Submit</button>
         <button
           type="button"
